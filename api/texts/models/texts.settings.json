@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "texts",
+  "info": {
+    "name": "Texts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "firstLanguage": {
+      "type": "string",
+      "required": true
+    },
+    "firstText": {
+      "type": "string",
+      "required": true
+    },
+    "secondLanguage": {
+      "type": "string",
+      "required": true
+    },
+    "secondText": {
+      "type": "string",
+      "required": true
+    },
+    "userID": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

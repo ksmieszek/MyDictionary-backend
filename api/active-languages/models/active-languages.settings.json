@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "active_languages",
+  "info": {
+    "name": "ActiveLanguages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "languageId": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "chosen": {
+      "type": "string",
+      "required": true
+    },
+    "userID": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

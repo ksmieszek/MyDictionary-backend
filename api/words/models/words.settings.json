@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "words",
+  "info": {
+    "name": "words",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstLanguage": {
+      "type": "string",
+      "required": true
+    },
+    "firstWord": {
+      "type": "string",
+      "required": true
+    },
+    "secondLanguage": {
+      "type": "string",
+      "required": true
+    },
+    "secondWord": {
+      "type": "string",
+      "required": true
+    },
+    "userID": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
